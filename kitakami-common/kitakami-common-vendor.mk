@@ -94,6 +94,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/lib/libsuntory_utils.so:system/lib/libsuntory_utils.so \
     vendor/sony/kitakami-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/kitakami-common/proprietary/lib/libta.so:system/lib/libta.so \
+    vendor/sony/kitakami-common/proprietary/lib/libaudioresampler.so:system/lib/libaudioresampler.so \
+    vendor/sony/kitakami-common/proprietary/lib64/libaudioresampler.so:system/lib64/libaudioresampler.so \
     vendor/sony/kitakami-common/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
     vendor/sony/kitakami-common/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
     vendor/sony/kitakami-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
