@@ -17,7 +17,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
-    vendor/sony/sumire/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/sony/sumire/proprietary/bin/qseecomd:system/vendor/bin/qseecomd \
     vendor/sony/sumire/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb:system/etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_General_cal.acdb:system/etc/acdbdata/Sony/Sony_General_cal.acdb \
@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_snapshot_ctrl_plugin.so:system/lib/camera/libexcal_snapshot_ctrl_plugin.so \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_splitter_plugin.so:system/lib/camera/libexcal_splitter_plugin.so \
     vendor/sony/sumire/proprietary/lib/camera/libexcal_stream_ctrl_plugin.so:system/lib/camera/libexcal_stream_ctrl_plugin.so \
-    vendor/sony/sumire/proprietary/lib/hw/camera.qcom.so:system/lib/hw/camera.qcom.so \
+    vendor/sony/sumire/proprietary/lib/hw/camera.qcom.so:/system/vendor/lib/hw/camera.vendor.msm8994.so \
     vendor/sony/sumire/proprietary/lib/hw/fingerprint.msm8994.so:system/lib/hw/fingerprint.msm8994.so \
     vendor/sony/sumire/proprietary/lib/lib_fpc_tac_shared.so:system/lib/lib_fpc_tac_shared.so \
     vendor/sony/sumire/proprietary/lib/libcacao_client.so:system/lib/libcacao_client.so \
@@ -543,6 +543,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:system/vendor/lib/libmmcamera_isp_sub_module.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_isp_wb46.so:system/vendor/lib/libmmcamera_isp_wb46.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_llvd.so:system/vendor/lib/libmmcamera_llvd.so \
+    vendor/sony/sumire/proprietary/vendor/lib/libllvd_smore.so:system/vendor/lib/libllvd_smore.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:system/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:system/vendor/lib/libmmcamera_optizoom_lib.so \
     vendor/sony/sumire/proprietary/vendor/lib/libmmcamera_ov4688_eeprom.so:system/vendor/lib/libmmcamera_ov4688_eeprom.so \
