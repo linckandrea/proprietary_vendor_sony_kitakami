@@ -26,13 +26,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb:system/etc/acdbdata/Sony/Sony_Hdmi_cal.acdb \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Headset_cal.acdb:system/etc/acdbdata/Sony/Sony_Headset_cal.acdb \
     vendor/sony/sumire/proprietary/etc/acdbdata/Sony/Sony_Speaker_cal.acdb:system/etc/acdbdata/Sony/Sony_Speaker_cal.acdb \
-    vendor/sony/sumire/proprietary/etc/firmware/BCM43xx.hcd:system/etc/firmware/BCM43xx.hcd \
-    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/sony/sumire/proprietary/etc/firmware/BCM43xx.hcd:system/vendor/firmware/BCM43xx.hcd \
+    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/veendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/sony/sumire/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
     vendor/sony/sumire/proprietary/etc/firmware/touch_module_id_0x01.img:system/etc/firmware/touch_module_id_0x01.img \
     vendor/sony/sumire/proprietary/etc/firmware/touch_module_id_0x02.img:system/etc/firmware/touch_module_id_0x02.img \
     vendor/sony/sumire/proprietary/etc/firmware/touch_module_id_0x03.img:system/etc/firmware/touch_module_id_0x03.img \
@@ -57,8 +57,8 @@ PRODUCT_COPY_FILES += \
     vendor/sony/sumire/proprietary/etc/firmware/touch_module_id_0x2b.img:system/etc/firmware/touch_module_id_0x2b.img \
     vendor/sony/sumire/proprietary/etc/firmware/touch_module_id_0xa0.img:system/etc/firmware/touch_module_id_0xa0.img \
     vendor/sony/sumire/proprietary/etc/firmware/touch_module_id_0xa1.img:system/etc/firmware/touch_module_id_0xa1.img \
-    vendor/sony/sumire/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
-    vendor/sony/sumire/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
+    vendor/sony/sumire/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd.bin:system/vendor/firmware/wlan/bcmdhd/fw_bcmdhd.bin \
+    vendor/sony/sumire/proprietary/etc/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin:system/vendor/firmware/wlan/bcmdhd/fw_bcmdhd_apsta.bin \
     vendor/sony/sumire/proprietary/etc/flashled_calc_parameters.cfg:system/etc/flashled_calc_parameters.cfg \
     vendor/sony/sumire/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/sony/sumire/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
