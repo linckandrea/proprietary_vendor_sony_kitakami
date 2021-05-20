@@ -18,7 +18,6 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/sony/kitakami-common/proprietary/bin/iddd:system/bin/iddd \
-    vendor/sony/kitakami-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/sony/kitakami-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
     vendor/sony/kitakami-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/sony/kitakami-common/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
@@ -77,16 +76,10 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/etc/firmware/venus.b03:system/vendor/firmware/venus.b03 \
     vendor/sony/kitakami-common/proprietary/etc/firmware/venus.b04:system/vendor/firmware/venus.b04 \
     vendor/sony/kitakami-common/proprietary/etc/firmware/venus.mdt:system/vendor/firmware/venus.mdt \
-    vendor/sony/kitakami-common/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/sony/kitakami-common/proprietary/lib/libMiscTaAccessor.so:system/lib/libMiscTaAccessor.so \
     vendor/sony/kitakami-common/proprietary/lib/lib_asb_tee.so:system/lib/lib_asb_tee.so \
     vendor/sony/kitakami-common/proprietary/lib/libcredential-manager-service.so:system/lib/libcredential-manager-service.so \
     vendor/sony/kitakami-common/proprietary/lib/libdevice_security.so:system/lib/libdevice_security.so \
-    vendor/sony/kitakami-common/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
-    vendor/sony/kitakami-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/sony/kitakami-common/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-    vendor/sony/kitakami-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
-    vendor/sony/kitakami-common/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/sony/kitakami-common/proprietary/lib/libmiscta.so:system/lib/libmiscta.so \
     vendor/sony/kitakami-common/proprietary/lib/libplstorage.so:system/lib/libplstorage.so \
     vendor/sony/kitakami-common/proprietary/lib/libprotobuf-c.so:system/lib/libprotobuf-c.so \
@@ -98,17 +91,11 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/lib64/libaudioresampler.so:system/lib64/libaudioresampler.so \
     vendor/sony/kitakami-common/proprietary/lib/soundfx/libsonypostprocbundle.so:system/lib/soundfx/libsonypostprocbundle.so \
     vendor/sony/kitakami-common/proprietary/lib/soundfx/libsonysweffect.so:system/lib/soundfx/libsonysweffect.so \
-    vendor/sony/kitakami-common/proprietary/lib64/hw/gps.default.so:system/lib64/hw/gps.default.so \
     vendor/sony/kitakami-common/proprietary/lib64/lib-preload64.so:system/lib64/lib-preload64.so \
     vendor/sony/kitakami-common/proprietary/lib64/libMiscTaAccessor.so:system/lib64/libMiscTaAccessor.so \
     vendor/sony/kitakami-common/proprietary/lib64/lib_asb_tee.so:system/lib64/lib_asb_tee.so \
     vendor/sony/kitakami-common/proprietary/lib64/libcredential-manager-service.so:system/lib64/libcredential-manager-service.so \
     vendor/sony/kitakami-common/proprietary/lib64/libdevice_security.so:system/lib64/libdevice_security.so \
-    vendor/sony/kitakami-common/proprietary/lib64/libgps.utils.so:system/lib64/libgps.utils.so \
-    vendor/sony/kitakami-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/sony/kitakami-common/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
-    vendor/sony/kitakami-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/sony/kitakami-common/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/sony/kitakami-common/proprietary/lib64/libmiscta.so:system/lib64/libmiscta.so \
     vendor/sony/kitakami-common/proprietary/lib64/libplstorage.so:system/lib64/libplstorage.so \
     vendor/sony/kitakami-common/proprietary/lib64/libprotobuf-c.so:system/lib64/libprotobuf-c.so \
@@ -131,7 +118,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib/egl/libQTapGLES.so:system/vendor/lib/egl/libQTapGLES.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/egl/libq3dtools_esx.so:system/vendor/lib/egl/libq3dtools_esx.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/hw/gatekeeper.msm8994.so:system/vendor/lib/hw/gatekeeper.msm8994.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/hw/keystore.msm8994.so:system/vendor/lib/hw/keystore.msm8994.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
@@ -154,15 +140,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libc2d30-a4xx.so:system/vendor/lib/libc2d30-a4xx.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libconnctrl.so:system/vendor/lib/libconnctrl.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:system/vendor/lib/libmmcamera_chromaflash_lib.so \
@@ -171,12 +151,9 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -206,25 +183,24 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libc2d30-a3xx.so:system/vendor/lib64/libc2d30-a3xx.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libc2d30-a4xx.so:system/vendor/lib64/libc2d30-a4xx.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libconnctrl.so:system/vendor/lib64/libconnctrl.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libllvm-qcom.so:system/vendor/lib64/libllvm-qcom.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libdataitems.so:system/vendor/lib64/libdataitems.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/libxtadapter.so:system/vendor/lib64/libxtadapter.so
 
 PRODUCT_PACKAGES += \
     libtime_genoff
