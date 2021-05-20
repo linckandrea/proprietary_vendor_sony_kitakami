@@ -49,7 +49,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
-LOCAL_MODULE_OWNER := oneplus
+LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional
@@ -59,7 +59,7 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_ds_api
-LOCAL_MODULE_OWNER := oneplus
+LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES := proprietary/lib64/libloc_ds_api.so
 LOCAL_MULTILIB := 64
 LOCAL_MODULE_TAGS := optional

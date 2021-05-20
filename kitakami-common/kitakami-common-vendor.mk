@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/sony/kitakami-common/proprietary/bin/iddd:system/bin/iddd \
     vendor/sony/kitakami-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
+    vendor/sony/kitakami-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/sony/kitakami-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/sony/kitakami-common/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/sony/kitakami-common/proprietary/bin/pm-service:system/vendor/bin/pm-service \
@@ -150,7 +151,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:system/vendor/lib/libmmcamera_ubifocus_lib.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
@@ -189,7 +189,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libmm-disp-apis.so:system/vendor/lib64/libmm-disp-apis.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/libqti_performance.so:system/vendor/lib64/libqti_performance.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/librs_adreno_sha1.so:system/vendor/lib64/librs_adreno_sha1.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/libscale.so:system/vendor/lib64/libscale.so \
