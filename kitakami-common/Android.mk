@@ -20,6 +20,28 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter ivy karin karin_windy satsuki sumire suzuran,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_api_v02
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/lib64/libloc_api_v02.so
+LOCAL_CHECK_ELF_FILES := false
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := libloc_ds_api
+LOCAL_MODULE_OWNER := sony
+LOCAL_SRC_FILES := proprietary/lib64/libloc_ds_api.so
+LOCAL_CHECK_ELF_FILES := false
+LOCAL_MULTILIB := 64
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_MODULE_SUFFIX := .so
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
 LOCAL_MODULE_OWNER := sony
 LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/libtime_genoff.so

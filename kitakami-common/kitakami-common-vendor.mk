@@ -18,8 +18,8 @@
 PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/sony/kitakami-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
-    vendor/sony/kitakami-common/proprietary/bin/energy-awareness:system/vendor/energy-awareness \
-    vendor/sony/kitakami-common/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
+    vendor/sony/kitakami-common/proprietary/bin/energy-awareness:system/vendor/bin/energy-awareness \
+    vendor/sony/kitakami-common/proprietary/bin/msm_irqbalance:system/vendor/bin/msm_irqbalance \
     vendor/sony/kitakami-common/proprietary/bin/pm-proxy:system/vendor/bin/pm-proxy \
     vendor/sony/kitakami-common/proprietary/bin/pm-service:system/vendor/bin/pm-service \
     vendor/sony/kitakami-common/proprietary/bin/sct_service:system/bin/sct_service \
@@ -198,12 +198,12 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/liblbs_core.so:system/vendor/lib64/liblbs_core.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/liblocationservice.so:system/vendor/lib64/liblocationservice.so \
     vendor/sony/kitakami-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
-    vendor/sony/kitakami-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so \
-    vendor/sony/kitakami-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
-    vendor/sony/kitakami-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
+    vendor/sony/kitakami-common/proprietary/vendor/lib64/libulp2.so:system/vendor/lib64/libulp2.so
 
 PRODUCT_PACKAGES += \
-    libtime_genoff
+    libtime_genoff \
+    libloc_api_v02 \
+    libloc_ds_api
 
 PRODUCT_PACKAGES += \
     nfc_nci.msm8994
