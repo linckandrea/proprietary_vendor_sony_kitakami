@@ -28,13 +28,13 @@ PRODUCT_COPY_FILES += \
     vendor/sony/kitakami-common/proprietary/bin/tad_static:system/bin/tad_static \
     vendor/sony/kitakami-common/proprietary/bin/taimport:system/bin/taimport \
     vendor/sony/kitakami-common/proprietary/bin/updatemiscta:system/bin/updatemiscta \
-    vendor/sony/kitakami-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/sony/kitakami-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b00:system/etc/firmware/cmnlib.b00 \
-    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b01:system/etc/firmware/cmnlib.b01 \
-    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b02:system/etc/firmware/cmnlib.b02 \
-    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b03:system/etc/firmware/cmnlib.b03 \
-    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.mdt:system/etc/firmware/cmnlib.mdt \
+    vendor/sony/kitakami-common/proprietary/etc/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/sony/kitakami-common/proprietary/etc/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
+    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b00:system/vendor/firmware/cmnlib.b00 \
+    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b01:system/vendor/firmware/cmnlib.b01 \
+    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b02:system/vendor/firmware/cmnlib.b02 \
+    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.b03:system/vendor/firmware/cmnlib.b03 \
+    vendor/sony/kitakami-common/proprietary/etc/firmware/cmnlib.mdt:system/vendor/firmware/cmnlib.mdt \
     vendor/sony/kitakami-common/proprietary/etc/firmware/tzdtcpkctl.b00:system/etc/firmware/tzdtcpkctl.b00 \
     vendor/sony/kitakami-common/proprietary/etc/firmware/tzdtcpkctl.b01:system/etc/firmware/tzdtcpkctl.b01 \
     vendor/sony/kitakami-common/proprietary/etc/firmware/tzdtcpkctl.b02:system/etc/firmware/tzdtcpkctl.b02 \
